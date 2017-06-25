@@ -1,0 +1,11 @@
+{
+  "name": "test-kitchen",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Van J. Wilson <van.wilson1992@alumni.unc.edu>",
+  "license": "MIT"
+}
