@@ -1,4 +1,5 @@
 import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
   entry: './src/index.js',
@@ -6,6 +7,14 @@ export default {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      title: 'Output Management',
+      filename: 'index.html',
+      inject: 'body',
+    })
+  ],
   module: {
     rules: [
       {
