@@ -17,8 +17,8 @@ pids
 # node-waf configuration
 .lock-wscript
 
-# build 
-dist
+# build
+#dist
 
 # Dependency directories
 node_modules/

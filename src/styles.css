@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'RobotoBold';
+  src:  url('./fonts/roboto-bold-webfont.woff2') format('woff2'),
+        url('./fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src:  url('./fonts/oxygen-webfont.woff2') format('woff2'),
+        url('./fonts/oxygen-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background: url('./images/checkerboard_pattern.png');
+  font-family: 'Oxygen';
+}
+
+.hello {
+  color: red;
+  font-family: 'RobotoBold';
+}
+
+.framed {
+  background-color: #fff;
+  border:  2px solid #333;
+}
